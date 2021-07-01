@@ -1,0 +1,310 @@
+
+
+/* Font */
+
+@font-face {
+    font-family: 'libre_caslon_textbold';
+    src: url('../fonts/librecaslontext-bold-webfont.woff2') format('woff2'),
+         url('../fonts/librecaslontext-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'libre_caslon_textmedium';
+    src: url('../fonts/librecaslontext-medium-webfont.woff2') format('woff2'),
+         url('../fonts/librecaslontext-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'libre_caslon_textregular';
+    src: url('../fonts/librecaslontext-regular-webfont.woff2') format('woff2'),
+         url('../fonts/librecaslontext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('../fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_prolight';
+    src: url('../fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('../fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_prosemibold';
+    src: url('../fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('../fonts/sourcesanspro-black-webfont.woff2') format('woff2'),
+         url('../fonts/sourcesanspro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* End Font */
+
+/* CUSTOM */
+
+@media (max-width: 1198px){
+.container{ max-width: 1018px;}
+}
+@media (max-width: 1100px){
+.container{ max-width: 998px;}
+}
+@media (max-width: 1048px){
+.container{ max-width: 948px;}
+}
+@media (max-width: 991px){
+.container{ max-width: 848px;}
+}
+
+.clear{ clear:both;}
+.col-lg-12 {
+    -ms-flex: 0 0 100%!important;
+    flex: 0 0 100%!important;
+    max-width: 100%!important;
+}
+.col-lg-6 {
+    -ms-flex: 0 0 50%!important;
+    flex: 0 0 50%!important;
+    max-width: 50%!important;
+}
+.col-lg-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+}
+.col-lg-4 {
+    -ms-flex: 0 0 33.333333%!important;
+    flex: 0 0 33.333333%!important;
+    max-width: 33.333333%!important;
+}
+.col-lg-3 {
+    -ms-flex: 0 0 25%!important;
+    flex: 0 0 25%!important;
+    max-width: 25%!important;
+}
+.col-lg-1 {
+    -ms-flex: 0 0 8.333333%!important;
+    flex: 0 0 25%!important;
+    max-width: 8.333333%!important;
+}
+
+
+
+
+
+.pf-title-1, h2.pf-title-1 {
+    font-size: 18px;
+    font-family: 'libre_caslon_textmedium';
+    color: #282C3F;
+    position: relative;
+    margin-bottom: 12px;
+	text-align:center;
+}
+.pf-title-2, h2.pf-title-2 {
+    font-size: 18px;
+    font-family: 'libre_caslon_textmedium';
+    color: #282C3F;
+    position: relative;
+    margin-bottom: 16px;
+	text-align:center;
+}
+
+
+.title-underline{ border-bottom:1px solid #000;}
+
+.owl-carousel { touch-action: manipulation; }
+.smallTitle{ font-size:14px; color:#231f20; text-transform:uppercase; display:block; width:100%; font-family: 'libre_caslon_textregular'; text-align:center;}
+.bigTitle{font-size:34px; font-weight:500; color:#084ea2; font-family: 'libre_caslon_textregular'; text-align:center; padding: 4px 0 5px 0!important; margin: 0; line-height: 36px;}
+.smallTitleMore{ont-size:14px; color:#084ea2; display:block; width:100%; text-align:center; }
+@keyframes menu-animation {
+  0% {
+    opacity: 0;
+    transform: scale(0.04) translateY(300%);
+  }
+  40% {
+    transform: scale(0.04) translateY(0);
+    transition: ease-out;
+  }
+  40% {
+    transform: scale(0.04) translateY(0);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(0.02) translateY(0px);
+  }
+  61% {
+    opacity: 1;
+    transform: scale(0.04) translateY(0px);
+  }
+  99.9% {
+    opacity: 1;
+    height: 0;
+    padding-bottom: 100%;
+    border-radius: 100%;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(2) translateY(0px);
+    height: 100%;
+    padding-bottom: 0;
+    border-radius: 0;
+  }
+}
+
+
+body{ font-size:15px; font-family: 'source_sans_proregular';}
+
+a {
+  transition: all 0.4s;
+  color: #f47e00;
+  display: inline-block;
+}
+
+a:hover {
+  transition: all 0.4s;
+  color: #f47e00;
+}
+
+
+a:focus,
+a:hover {
+  text-decoration: none;
+  outline: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.pb-2-5{ padding-bottom:2.4rem;}
+.pb-1-9{ padding-bottom:1.9rem;}
+
+.pb-10-px{ padding-bottom:10px!important;}
+
+.margin-bottom-26{ margin-bottom:26px;}
+.marginBottom30{ margin-bottom:30px;}
+.mt-9-px{ margin-top:9px;}
+.mt-18-px{ margin-top:18px;}
+.mt-35-px{ margin-top:35px;}
+.mt-50-px{ margin-top:50px;}
+.marginTop48{ margin-top:48px;}
+.mt-52-px{ margin-top:52px!important;}
+.marginBottom48{ margin-bottom:48px;}
+
+.mr-17-px{ margin-right:17px;}
+.mt-3-px{ margin-top:3px;}
+.mt-12-px{ margin-top:12px;}
+.ml-6-px{ margin-left:6px;}
+
+
+
+.mb-3-px{ margin-bottom:3px;}
+.mb-6-px{ margin-bottom:6px!important;}
+.mb-8-px{ margin-bottom:8px!important;}
+
+.mb-22-px{ margin-bottom:22px;}
+.mr-10-px{ margin-right:10px;}
+.mr-3-px{ margin-right:3px;}
+
+.mt-40-px{ margin-top:40px;}
+.mt-30-px{ margin-top:30px!important;}
+.mt-20-px{ margin-top:20px!important;}
+.mb-26-px{ margin-bottom:26px!important;}
+
+.mb-15-px{ margin-bottom:15px;}
+.mt-7-px{ margin-top:7px!important;}
+
+.pt-18-px{ padding-top:18px!important;}
+.pt-20-px{ padding-top:20px;!important;}
+.pb-10-px{ padding-bottom:10px!important;}
+.pb-12-px{ padding-bottom:12px;}
+
+.pt-24-px{ padding-top:24px!important;}
+.pt-40-px{ padding-top:40px!important;}
+.pt-10-px{ padding-top:10px!important;}
+.pt-12-px{ padding-top:12px!important;}
+.pl-10-px{ padding-left:10px;}
+.pt-5-px{ padding-top:5px!important;}
+.pb-5-px{ padding-bottom:5px!important;}
+.pt-7-px{ padding-top:7px!important;}
+.pb-7-px{ padding-bottom:7px!important;}
+.pt-15-px{ padding-top:15px!important;}
+.pb-15-px{ padding-bottom:15px!important;}
+.pl-25-px{ padding-left:25px!important;}
+
+/* END CUSTOM */
+
+/*BACKGROUND COLOR*/
+.whiteBg{ background:#fff!important;}
+/*END BACKGROUND COLOR*/
+
+/*TITLE*/
+.titleEver-1{
+font-size: 36px;
+font-family: 'libre_caslon_textregular';
+line-height: 44px;
+text-align: center;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #282C3F;
+}
+/*END TITLE*/
+
+/*TAB*/
+.marginTop48{ margin-top:48px;}
+.catgTab{ text-align:center; padding:0 0 26px 0;}
+.catgTab a{ font-size: 18px; line-height: 26px; text-align: center; letter-spacing: 0.05em; text-transform: uppercase; color: #282C3F; padding:0 14px; margin:0 9px;}
+.catgTab a.active{ border-bottom:1px solid #282C3F;}
+
+.CatgInner{ text-align:center;}
+.categLanding { width: 165px; margin:0 10px; display: inline-block; text-align: center;}
+.categLanding .img_wrap img{max-width: 175px; max-height: 187px; border:1px solid #ADADAD; padding: 5px; -webkit-border-radius: 100%; -moz-border-radius: 100%; border-radius: 100%;}
+.categLanding .productsliderText{white-space: initial; padding-top:14px; text-align:center;}
+.categLanding .productsliderText a{vertical-align:top; color:#231f20; font-family: 'libre_caslon_textregular';}
+.categLanding .productsliderText a h4 { font-size: 16px!important; font-weight: normal; color:#282C3F; font-family: 'libre_caslon_textmedium';}
+
+.brandLogo{ margin-top:8px;}
+
+@media only screen and (max-width: 1200px) {
+.categLanding{ width: 135px;}
+.categLanding .img_wrap img{ max-width: 135px; max-height: 147px;}
+}
+/*END TAB*/
+
+
+

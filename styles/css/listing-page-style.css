@@ -1,0 +1,91 @@
+/*BANNER*/
+.listingBanner{padding-bottom: 32px!important;}
+/*END BANNER*/
+
+.listBrandTechno{ margin-bottom:54px;}
+.listBrandTechno .col-lg-6{padding-right: 10px; padding-left: 10px;}
+.listBrandTechno .col-lg-6:first-child{padding-right:5px;}
+.listBrandTechno .col-lg-6:last-child{padding-left:5px;}
+
+.lbtbox{ text-align:center; }
+.lbtbox a{ text-align:center; font-size:13px; font-family: 'libre_caslon_textregular'; color:#fff; display:inline-block; vertical-align:top; margin:0 24px;
+width:330px; max-width:100%;
+height: 78px;
+line-height: 70px;
+background:#282C3F; text-align: center; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; padding:5px 0; position:relative; margin-top:6px; margin-bottom:0;
+}
+.lbtbox a span{padding: 4px 0 0 10px; vertical-align: middle; display: inline-block;
+font-size: 24px;
+line-height: 30px;
+text-align: center;
+color: #FFFFFF;
+}
+.lbtbox a.lbtBrand{ position:relative;}
+.lbtbox a.lbtTechno{ position:relative;}
+.lbtbox a.lbtTechno span{}
+.lbtbox a i{ font-size:13px; font-weight: 400; line-height: 31px; position:absolute; left: 80%; top: 0; bottom: 0; margin-top: auto; margin-bottom: auto;}
+
+
+.listShopByColtCover{}
+.listShopByColtCover .container{ max-width: 1408px;}
+.listShopByColt .brandText{ padding-top:9px;}
+.listShopByColt .brandText a{ font-size: 18px; line-height: 23px; text-align: center; color: #282C3F;}
+.listShopByColt .listShopByColtInner{ width: 165px;  margin: 0px 8px; display: inline-block; text-align: center;}
+.listShopByColt .img_wrap img{width: 161px; height: 161px; padding:6px; max-width: 175px; max-height: 187px; border: 1px solid #ADADAD; -webkit-border-radius: 100%;
+    -moz-border-radius: 100%; border-radius: 100%;
+}
+
+.tagcloud01 ul {
+	margin: 0;
+	padding: 12px 0 0 0;
+	list-style: none;
+}
+.tagcloud01 ul li { display: inline-block;	margin: 0 12px .3em 0; 	padding: 0;	position:relative;
+}
+.tagcloud01 ul li img{ position:absolute; top:7px; right:8px; cursor:pointer;}
+.tagcloud01 ul li a {
+	font-size: 14px;
+	line-height: 22px;
+	color: #282C3F;
+
+	display: inline-block;
+	max-width: 200px;
+	height: 24px;
+	padding: 0 1.6em 0 8px;
+	background-color: #fff;
+	border: 1px solid #aaa;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	text-decoration: none;
+	-webkit-transition: .2s;
+	transition: .2s;
+	-webkit-border-radius: 25px;
+-moz-border-radius: 25px;
+border-radius: 25px;
+}
+.tagcloud01 ul li i{font-size: 11px; font-weight: normal; margin-right:1px;}
+.tagcloud01 ul li a:hover {
+	background-color: #807c7c;
+	border: 1px solid #807c7c;
+	color: #fff;
+}
+
+
+@media only screen and (max-width: 1296px) {
+.listShopByColt .listShopByColtInner{ width: 155px;}
+.listShopByColt .img_wrap img{ max-width: 155px; max-height: 157px;}
+}
+
+@media only screen and (max-width: 1200px) {
+.listShopByColt .listShopByColtInner{ width: 135px;}
+.listShopByColt .img_wrap img{ max-width: 135px; max-height: 136px;}
+}
+
+@media only screen and (max-width: 1100px) {
+.listShopByColt .listShopByColtInner{ width: 115px;}
+.listShopByColt .img_wrap img{ max-width: 115px; max-height: 116px;}
+.listShopByColt .brandText a{font-size: 16px;}
+}
+
+

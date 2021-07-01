@@ -1,0 +1,46 @@
+.calculatorsCatg .categoryCard{ margin-right:52px;}
+.calculatorsCatg .categoryScroller{ text-align:center;}
+
+
+.calcSlider .img_wrap{ height: 275px;}
+.calcSlider .imgWrapInner a{width:auto; height:245px!important; display: flex!important;}
+.calcSlider .imgWrapInner img { width: auto; height: auto; margin: auto; max-height: 248px;}
+.calcSlider ..vallProd{  margin: 36% 0 0 -40px;}
+
+.shopByUser{}
+.shopByUser .categoryCard{width: 119px;}
+.shopByUser .categoryCard:first-child{ margin-left: 0;}
+.shopByUser .categoryCard:last-child{ margin-right: 0;}
+.shopByUser .categoryCard{ margin:0 12.7px;}
+.shopByUser .categoryCard img{ max-width: 121px;  max-height: 121px; padding: 4px;}
+
+.emiUtility{ background: #F7F7F7; padding-top:25px; padding-bottom:25px;}
+.emiUtility .offerCard{ width: 22.9%; display: inline-block; vertical-align: top;}
+.emiUtility .offerCard:first-child{ margin-left:0;}
+.emiUtility .offerCard:last-child{ margin-right:0;}
+.emiUtility span.uptoOffer{ font-family: 'libre_caslon_textregular'; background: #282C3F; text-align: center;  height: 69px; 
+    padding: 20px 0 5px 0; display: block; margin: auto; width: 100%;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.catgHeight-88{ height:88px!important; display: flex!important; justify-content: center; align-items: center; padding: 5px 0 5px 0!important;}
+
+@media (max-width: 1198px){
+.shopByUser .categoryCard { width: 96.8px; margin: 0 11.7px;}
+.shopByUser .categoryCard img{max-width: 96.8px; max-height: 96.8px;}
+
+.emiUtility .offerCard{width: 22.4%;}
+.emiUtility span.uptoOffer{ font-size: 17px;}
+}
+@media (max-width: 991px){
+.shopByUser .categoryCard { width: 95.8px; margin: 0 6.7px;}
+.shopByUser .categoryCard img{max-width: 95.8px; max-height: 95.8px;}
+}
+
+
+
+.explorMere .offerCard{width: 31%;}

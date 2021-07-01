@@ -1,0 +1,111 @@
+
+@media (min-width: 1199px){
+.container{ max-width: 1154px;}
+}
+
+.sticky-top{ background:#fff;}
+.header-cover{
+/*padding: 0 2.49% 7px 2.49%;*/
+max-width: 1408px;
+/*padding: 0 0 7px 0;*/
+padding: 0 0 0 0;
+margin-left: auto;
+margin-right: auto;
+}
+.header-cover .container{
+    width: 100%;	
+}
+.header-cover .logo {
+width: 261px; margin-top: 17px; margin-left:18px;
+float:left;  
+}
+.headerRight{ float: right; width: 72%; margin-right: 0;}
+.rightIcons{ width:256px; /*width:272px;*/ float: right; padding-top:16px;}
+.toTxt{ display:inline-block; font-size:12px; color:#282C3F; margin-right: 5px;}
+.header-cover .open-menu-login-account { margin-bottom:0;}
+.header-cover .open-menu-login-account img{ width:21px; height:21px;} 
+
+.header-cover .nav-content-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 0 15px;
+	margin-bottom:0;
+}
+.header-cover .nav-content-list li:last-child{ margin-right:0;}
+
+.searchIcon{ float:left; padding-top:16px; width: 68%;}
+.searchIcon .open-search{ width:100%;}
+.searchBar{ width:100%; height:38px; padding:2px 0; border:1px solid #282C3F; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px;
+
+border: 1px solid rgba(173, 173, 173, 0.7);
+box-sizing: border-box;
+} 
+
+.searchBar input[type="text"]{ width: 90.5%; padding-left:1.5%; font-size:12px; border:0; font-size: 14px; line-height: 30px; text-align: left; /*color: #ADADAD;*/ }
+.searchBar input::-webkit-input-placeholder { color: #ADADAD;}
+.searchBar input::-moz-placeholder {  color: #ADADAD;}
+.searchBar input:-ms-input-placeholder { color: #ADADAD;}
+.searchBar input:-moz-placeholder { color: #ADADAD;}
+
+.searchBar input[type="button"], .searchBar button{ background:none; border:0;}
+.searchBar input[type="button"]:focus, .searchBar button:focus{ outline:none;}
+.searchBar input[type="button"] img, .searchBar button img{ width: 18px; height: 18px;}
+
+
+
+
+
+.header-cover .rightIcons .nav-content-list .nav-content-item {
+	 align-items: center;
+	 display: flex;
+	 height: 28px;
+	 margin: 0 10px;
+	 position: relative;
+	 transition: 100ms all linear 0s;
+}
+.header-cover .rightIcons .nav-content-list .nav-content-item .open-menu-login-account {
+	 align-items: center;
+	 cursor: pointer;
+	 display: flex;
+	 position: relative;
+}
+.header-cover .rightIcons .nav-content-list .nav-content-item .input-menu {
+	 display: none;
+}
+.header-cover .rightIcons .nav-content-list .nav-content-item .input-menu:checked ~ .login-list {
+	 display: block;
+}
+.header-cover .rightIcons .nav-content-list .nav-content-item .login-list {
+	 background: #fff;
+	 border-bottom: 3px solid #0066b1;
+	 border-radius: 3px;
+	 display: none;
+	 overflow: hidden;
+	 position: absolute;
+	 right: 0;
+	 top: 28px;
+	 transition: 100ms all linear 0s;
+	 width: 200px;
+	 z-index: 10;
+}
+
+
+@media (max-width: 1280px){
+.searchIcon{ width: 66%;}
+}
+@media (max-width: 1200px){
+.searchIcon{ width: 64%;}
+}
+@media (max-width: 1140px){
+.searchIcon{ width: 62%;}
+}
+@media (max-width: 1080px){
+.headerRight{ width: 68%;}
+.searchIcon{ width: 57.6%;}
+}
+@media (max-width: 1025px){
+.headerRight{ width: 68%;}
+.searchIcon{ width: 55%;}
+.searchBar input[type="text"]{ width: 90%;}
+}

@@ -2,8 +2,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'source_sans_probold', Helvetica Neue, sans-serif;
 }
 
 a {
@@ -13,4 +12,81 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'playfair_displayitalic';
+  src: url('/fonts/playfairdisplay-italic-variablefont_wght-webfont.woff2')
+      format('woff2'),
+    url('/fonts/playfairdisplay-italic-variablefont_wght-webfont.woff')
+      format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_caslon_textregular';
+  src: url('/fonts/playfairdisplay-variablefont_wght-webfont.woff2')
+      format('woff2'),
+    url('/fonts/playfairdisplay-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'source_sans_probold';
+  src: url('/fonts/sourcesanspro-bold-webfont.woff2') format('woff2'),
+    url('/fonts/sourcesanspro-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prolight';
+  src: url('/fonts/sourcesanspro-light-webfont.woff2') format('woff2'),
+    url('/fonts/sourcesanspro-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_proregular';
+  src: url('/fonts/sourcesanspro-regular-webfont.woff2') format('woff2'),
+    url('/fonts/sourcesanspro-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_prosemibold';
+  src: url('/fonts/sourcesanspro-semibold-webfont.woff2') format('woff2'),
+    url('/fonts/sourcesanspro-semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'source_sans_problack';
+  src: url('/fonts/sourcesanspro-black-webfont.woff2') format('woff2'),
+    url('/fonts/sourcesanspro-black-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'libre_caslon_textbold';
+  src: url('/fonts/librecaslontext-bold-webfont.woff2') format('woff2'),
+    url('/fonts/librecaslontext-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'libre_caslon_textmedium';
+  src: url('/fonts/librecaslontext-medium-webfont.woff2') format('woff2'),
+    url('/fonts/librecaslontext-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'libre_caslon_textregular';
+  src: url('/fonts/librecaslontext-regular-webfont.woff2') format('woff2'),
+    url('/fonts/librecaslontext-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
 }

@@ -1,0 +1,81 @@
+
+/*CASIO ASSURANCE*/
+.casioAssurance{ padding:25px 20px 23px 20px; background:#F7F7F7; margin-top:47px;}
+.casioAssurance h3{ font-size: 30px; line-height: 38px; color: #282C3F; padding-bottom: 10px;}
+
+
+.casioAssurance figure{display: inline-block; float: left; margin-right: 2px; min-width:67px;}	
+.authordiv{padding: 0 0 0 5px!important;}
+.casioAssurance .thText{ height: 56px; display: flex; align-items: center;}	
+.casioAssurance .thText p{ color: #282C3F; line-height: 15.5px; height: 31px; vertical-align: middle; margin: 0; padding: 0;}	
+.casioAssurance .thText a{ font-size: 12px; line-height: 15px; text-decoration-line: underline; color: #0066B2; }
+	
+.casioAssurance .logo-wrapper{ -ms-flex: 0 0 25%!important; flex: 0 0 25%!important; max-width: 25%!important; padding: 0 6px;}
+.casioAssurance .logo-wrapper img{ border:1px solid #ededee;}
+.assuranceTc{ font-size: 12px; line-height: 15px; text-align: right; text-decoration-line: underline; color: #0066B2;}
+
+/*END CASIO ASSURANCE*/
+
+/*SEO CONTENT*/
+.seoContent{}
+.seoInner{ border-top: 1px solid #F7F7F7; padding:30px 0 0 0; margin-top:40px;}
+.seoInner p{
+font-size: 14px;
+line-height: 23px;
+color: #676B7A;
+opacity: 0.7;
+}
+
+/*END SEO CONTENT*/
+
+
+/*FOOTER*/
+.footer{ background:#1F2230; margin:50px 0 0 0; padding:53px 0 0 0;}
+.footer h4 {
+font-family: 'source_sans_probold';
+font-size: 16px;
+font-weight:600;
+line-height: 20px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.footer ul{padding: 0;}
+.footer ul li{}
+.footer ul li a{
+font-family: 'source_sans_proregular';
+font-size: 12px;
+line-height: 224.2%;
+color: #FFFFFF;
+}
+.footer p{
+font-family: 'source_sans_proregular';
+font-size: 12px;
+line-height: 19.28px;
+color: #FFFFFF;
+}
+.newslettterCover{
+border: 1px solid #484a55;
+box-sizing: border-box;
+border-radius: 100px;
+
+}
+.newslettterCover input[type="text"]{ background:none; border:0; height:32px;}
+.subsText{ margin:18px 0 25px 0;}
+.subcribeBtn{ background: url(../images/subscribe-arrow.svg) no-repeat 3px center; padding: 0 15px 0 5px!important; width: 43px; height: 100%;}
+
+.footer-social-links{}
+.footer-social-links li a{ margin-right:28px;}
+.footer-social-links li a:last-child { margin-right:0;}
+.footer-social-links i{ width:30px;}
+
+.copyCover{
+border-top: 1px solid #54575f;
+padding:22px 0 24px 0;
+margin-top:55px;
+}
+.copyCover p{ padding-top:28px;}
+
+
+
+
+/*END FOOTER*/

@@ -1,0 +1,78 @@
+.title-ct-1{ font-family: 'source_sans_prosemibold'; font-weight: bold;  font-size: 36px; line-height: 23px; text-align: center; color: #000000;}
+.title-ct-2{ font-weight: bold; font-size: 24px; line-height: 23px; color: #000000; }
+.title-ct-1 span{ font-style:italic;}
+.mt-26-px{ margin-top:26px;}
+.mb-26-px{ margin-bottom:20px!important;}
+.mb-12-px{ margin-bottom:12px!important;}
+.mb-25-px{ margin-bottom:25px!important;}
+.mb-30-px{ margin-bottom:30px!important;}
+
+.grayBox-ct{ padding:20px 16px; background: #F7F7F7;}
+.grayBox-ct-inn{ width:100%; max-width:976px; margin:0 auto;}
+.grayBox-ct p{ font-weight: normal; font-size: 18px; line-height: 23px; text-align: justify; color: #282C3F; padding:0 0 30px 0; margin:0; }
+.title-gray{ font-style: italic; font-weight: normal; font-size: 22px; line-height: 16px; text-align: center; color: #282C3F;}
+
+a.seeBtn {
+    background: #282C3F;
+    font-size: 14px;
+    color: #fff;
+    width: 152px;
+    height: 29px;
+    margin-bottom: 11px;
+    line-height: 15px;
+    padding-left: 18px;
+    padding-right: 8px;
+    box-shadow: 4px 4px 5px rgb(40 44 63 / 29%);
+    text-align: left;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+a.seeBtn:hover{ color:#fff;}
+
+.picPadLeft {
+    padding-left: 4.5%;
+}
+.imgContent {
+    position: relative;
+    padding: 0 0 56px 0;
+}
+.imgContent h4 {
+font-weight: bold;
+font-family: 'source_sans_prosemibold';
+font-size: 24px;
+line-height: 23px;
+color: #000000;
+border-bottom: 0.5px solid #C4C4C4;
+padding:0 0 21px 0;
+margin:0 0 27px 0;
+}
+.imgContent .pic {
+    width: 48.5%;
+	max-width:602px;
+    overflow: hidden;
+}
+.imgContent .picContent {
+    width: 51%;
+}
+.imgContent .picContent p{  font-size: 22px; line-height: 33px;  color: #676B7A; }
+.imgContent .picContent a {
+    font-size: 10px;
+    color: #282C3F;
+    text-decoration: underline;
+}
+a.arrblkBtn {
+    font-size: 18px!important;
+	font-weight: bold;
+	line-height: 23px;
+	color: #282C3F;
+    font-family: 'source_sans_probold';
+    text-decoration: underline;
+	letter-spacing: -0.3px;
+}
+a.arrblkBtn img{ margin-left:6px;}
+.imgContentRight { text-align: right;}
+.imgContentRight p{ text-align:right;}
+.picPadRight {
+    padding-right: 4.5%;
+}

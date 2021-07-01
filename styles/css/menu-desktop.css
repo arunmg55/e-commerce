@@ -1,0 +1,216 @@
+
+.clear{ clear:both;}
+.menuDsk{ clear:both; background:#282C3F; height:64px; line-height:64px; text-align: center; width: 100%; padding-left:15px; padding-right:15px;}
+.menuDsk ul{ display:inline-block; margin:0; padding:0;}
+.menuDsk ul li{ display:inline-block;}
+.menuDsk ul li a{ font-size:16px; color:#fff; padding:0 15px; text-transform: uppercase;}
+.menuDsk > ul li a.hover, .menuDsk  ul li a.active{ }
+.menuDsk ul li a:hover + .megaMenuDiv{ display:block;}
+
+.menuDsk > ul li a:before, .menuDsk  ul li a.active:before{border-bottom: 0; content: ''; width: 100%; height: 2px; position: absolute; bottom: 0; background: #fff; z-index: 99; left: 0;}
+
+
+@media (max-width: 1328px){
+.menuDsk ul li a{padding: 0 13px;}
+}
+@media (max-width: 1299px){
+.menuDsk ul li a{padding: 0 12px;}
+}
+@media (max-width: 1274px){
+ .menuDsk ul li a{ padding: 0 10px;}
+}
+@media (max-width: 1250px){
+ .menuDsk ul li a{ font-size: 15px; padding: 0 11px;}
+}
+@media (max-width: 1194px){
+ .menuDsk ul li a{  padding: 0 9px;}
+}
+@media (max-width: 1160px){
+ .menuDsk ul li a{ font-size: 14px; padding: 0 10px;}
+}
+@media (max-width: 1120px){
+ .menuDsk ul li a{ padding: 0 6px;}
+}
+@media (max-width: 1045px){
+ .menuDsk ul li a{ padding: 0 3px;}
+}
+
+
+/*MEGA DROPDOWN*/
+.pt-44-px{ padding-top:44px!important;}
+.megaMenuDiv{ display:none; width:1300px; margin:0; padding:0 0 20px 0;  border:0;
+	
+background: #FFFFFF;
+/*box-shadow: 0px 12px 9px rgba(40, 44, 63, 0.57);*/
+border-radius: 0px 0px 12px 12px;
+}
+.megaMenuDiv .container{max-width: 100%; padding:0;}
+.megaMenuDiv .container .row{ margin:0;}
+.megaColumnGray{ background:#f9f9f9;}
+.megaColumn{padding:21px 8px 0 32px;}
+.megaColumn .menuMainHd{ font-weight: bold; font-size: 18px; font-family: 'source_sans_prosemibold'; line-height: 23px; padding-left:0; padding-bottom:20px; text-transform: uppercase; color: #282C3F; display:block;}
+.megaColumn .menuShopBy{ font-weight: bold; font-size: 14px; line-height: 18px; text-transform: uppercase; color: #676B7A;}
+
+.megaColumn ul{ float:left; width:49%; padding-right:1%;}
+.megaColumn ul:last-child{ padding-right:0!important;}
+.megaColumn ul li{ display:block; line-height: 22px; padding-bottom:8px;}
+.megaColumn ul li a strong{letter-spacing: 0px; font-weight: bold; font-size: 18px; font-family: 'source_sans_prosemibold'; line-height: 23px; color: #282C3F; display:block; padding-bottom:1px;}
+.megaColumn ul li a{ font-size: 18px; font-family: 'source_sans_proregular'; line-height: 23px; color: #282C3F; text-transform:capitalize; padding:0;}
+
+
+.menuWatchImg{width:208px; float:left; overflow:hidden; position:relative; margin-top:20px;}
+.menuWatchImg:after {
+    position: absolute;
+    content: "";
+    height: 60%;
+    width: 100%;
+    background: linear-gradient(
+180deg
+, rgba(40, 44, 63, 0) 0%, #282C3F 100%);
+    left: 0;
+    bottom: 0;
+    border-radius: 0px 0px 12px 12px;
+}
+.menuWatchImg img{-webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px;}
+.menuWatchImg a{ padding: 0!important;}
+.menuWatchImg .img_wrap { position: relative;}
+.menuWatchImgText {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    width: 100%;
+    padding: 10px 2% 5px 2%;
+    text-align: center;
+}
+.menuWatchImgText h4 {
+    line-height: 12px;
+    margin-bottom: 7px;
+}
+.menuWatchImgText h4 a {
+    font-size: 12px!important;
+    font-family: 'libre_caslon_textregular';
+	text-transform: capitalize!important;
+	line-height: 18px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+.menuBg{
+position: fixed;
+left: 0;
+top: 122px;
+width: 100%;
+height: 100%;
+/* background: rgba(25,40,44,0.8); */
+background: #282C3F;
+opacity: 0.84;
+z-index: 9;
+/*display: none;*/
+}
+.mgcDiv1{ 
+-ms-flex: 0 0 30.333333%;
+flex: 0 0 30.333333%;
+max-width: 30.333333%;
+}
+.mgcDiv2{ 
+-ms-flex: 0 0 33.333333%;
+flex: 0 0 33.333333%;
+max-width: 33.333333%;
+}
+.mgcDiv3{ 
+-ms-flex: 0 0 36.333333%;
+flex: 0 0 36.333333%;
+max-width: 36.333333%;
+}
+
+
+.mgcDiv45Per{ 
+-ms-flex: 0 0 45%;
+flex: 0 0 45%;
+max-width: 45%;
+}
+.mgcDiv45Per ul{
+float: left;
+width: 37.33%;
+padding-right: 1%;	
+}
+.mgcDiv55Per{ 
+-ms-flex: 0 0 55%;
+flex: 0 0 55%;
+max-width: 55%;
+}
+.menuLstBox:last-child{width: 24.33%;}
+.maoDsk{ width: 25.33%!important;}
+.mgcDiv55Per .menuWatchImg{ margin-right:4%;}
+.mgcDiv55Per .menuWatchImg:last-child{ margin-right:0;}
+
+/* adds some margin below the link sets  */
+.navbar .dropdown-menu div[class*="col"] {
+   margin-bottom:1rem;
+}
+
+.navbar .dropdown-menu {
+  border:none;
+  background-color:#0060c8!important;
+}
+
+/* breakpoint and up - mega dropdown styles */
+@media screen and (min-width: 992px) {
+  
+  /* remove the padding from the navbar so the dropdown hover state is not broken */
+.navbar {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+/* remove the padding from the nav-item and add some margin to give some breathing room on hovers */
+.navbar .nav-item {
+  padding:.5rem .5rem;
+  margin:0 .25rem;
+}
+
+/* makes the dropdown full width  */
+.navbar .dropdown {position:static;}
+
+.navbar .dropdown-menu {
+  width:100%;
+  left:0;
+  right:0;
+/*  height of nav-item  */
+  top:45px;
+  
+  display:block;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+  
+}
+  
+ 
+
+  
+  /* shows the dropdown menu on hover */
+.navbar .dropdown:hover .dropdown-menu, .navbar .dropdown .dropdown-menu:hover {
+  display:block;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+  
+  .navbar .dropdown-menu {
+    border: 1px solid rgba(0,0,0,.15);
+    background-color: #fff;
+  }
+
+}
+@media only screen and (max-width: 1320px) {
+.megaMenuDiv{ width: 1280px;}
+}
+@media only screen and (max-width: 1300px) {
+.megaMenuDiv{ width: 1260px;}
+}
+@media only screen and (max-width: 1300px) {
+.megaMenuDiv{ width: 1260px;}
+}
+/*END MEGA DROPDOWN*/

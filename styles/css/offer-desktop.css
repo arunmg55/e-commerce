@@ -1,0 +1,118 @@
+.homeOfferCover{margin-top: 0px;}
+.offerScroller {
+	 /*overflow-x: scroll;
+	 overflow-y: hidden;
+	 white-space: nowrap;*/
+}
+ .offerScroller .offerCard {
+	 display: inline-block; vertical-align: top;
+}
+ .offerScroller .offerCard a{ display:block;}
+ .offerScroller-flexbox {
+	 display: flex;
+	 flex-wrap: nowrap;
+	 overflow-x: auto;
+}
+ .scrolling-wrapper-flexbox .offerCard {
+	 flex: 0 0 auto;
+	 margin-right: 3px;
+}
+ .offerCard {
+	 width: 27.6%;
+     margin-left: 14px;
+     margin-right: 14px;
+	 /*height: 75px;
+	 background: black;*/
+}
+.offerCard:first-child{/*margin-right: 9px;*/}
+.offerCard:last-child{/*margin-left: 9px;*/}
+.offerCard img{ /*border:1px solid #0d0d0d;*/}
+.offerCard .productsliderText{white-space: initial; padding-top:8px; text-align:center;}
+.offerCard .productsliderText a{vertical-align:top;}
+.offerCard .productsliderText a h4 {
+    font-size: 11px!important;
+    font-weight: normal;
+	
+}
+.offerScroller, .scrolling-wrapper-flexbox {
+	/* height: 102px;*/
+	 margin-bottom: 52px;
+	 width: 100%;
+	 -webkit-overflow-scrolling: touch;
+}
+ .offerScroller::-webkit-scrollbar, .scrolling-wrapper-flexbox::-webkit-scrollbar {
+	 display: none;
+}
+
+
+.homeOfferCover{}
+.homeOfferCover .col-lg-6:first-child{ padding-right: 8px;}
+.homeOfferCover .col-lg-6:last-child{ padding-left: 8px;}
+.homeOfferCover .col-lg-6{-ms-flex: 0 0 50%!important; flex: 0 0 50%!important; max-width: 50%!important;}
+.homeOfferImg{ position:relative; /*border:5px solid #272c3f;*/ overflow:hidden; -webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px;}
+.homeOfferImg img{ width:100%; /*border:1px solid #0d0d0d; */
+
+
+}
+.homeOfferCover span.uptoOffer{  font-family: 'libre_caslon_textregular'; background:#282C3F; text-align:center; font-size:26px; color:#fff; height:90px; line-height:25px; padding:20px 0 5px 0; display:block; margin: auto;
+/*position:absolute; bottom:0;*/ width:100%;
+}
+.expOffer{ display:block; text-align:center; font-size:18px; font-family: 'source_sans_proregular'; color:#fff; padding-top:8px;}
+.homeOfferCover span.uptoOffer i{font-size: 9px; margin-right: 3px; font-weight: 300;}
+.homeOfferCover span.uptoOffer strong{font-weight: normal; font-family: 'libre_caslon_textregular';}
+
+.homeSummerCover{ text-align:center; margin:0 0 48px 0; background: #F7F7F7; border: 7px solid; border-image-slice: 1; border-width: 7px; border-image-source: linear-gradient(to top, #895367, #d9e3fa); 
+padding: 19px 10px 20px 10px;
+}
+
+
+.homeSummerCover h4{
+font-style: normal;
+font-family: 'source_sans_probold';
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 0.12em;
+text-transform: uppercase;
+color: #282C3F;
+margin: 0;
+padding: 2px 0 0 0;
+}
+.homeSummerCover span{
+font-size: 33px;
+font-family: 'source_sans_proregular';
+line-height: 41px;
+text-align: center;
+color: #282C3F;
+}
+
+
+
+/*GIFTING HIM HER*/
+.giftHimHer{ background:#F7F7F7; padding:27px 0 36px 0; margin-bottom:44px;}
+.catGifting{   font-size:30px; font-family: 'libre_caslon_textregular'; color:#fff; background:#282C3F; text-align:center;  height:87px; line-height:87px; display:block; margin: auto;
+
+
+width:100%;
+}
+
+.giftHimHer .giftHimHerCard{width: 46%;}
+.giftHimHer .giftHimHerCard:first-child{ margin-right:29px;}
+.giftHimHer .giftHimHerCard:last-child{margin-left:29px;}
+
+.giftingOptionCover .brandImg img{border-radius: 0;}
+/*END GIFTING HIM HER*/
+
+/*EXPLORE MORE*/
+.explorMere{ background:#F7F7F7; padding:32px 0 35px 0; margin-top:48px;}
+.explorMere .offerCard:first-child{margin-left:0;}
+.explorMere .offerCard:last-child{margin-right:0;}
+.explorMere .offerCard{ width: 31.8%; margin-left: 10px; margin-right: 10px; display: inline-block; vertical-align: top;}
+.explorMere .offerCard span.uptoOffer{ height:102px; line-height:102px!important; font-size: 30px; line-height: 37px; text-align: center; color: #FFFFFF; padding:0; }
+
+/*EXPLORE MORE*/
+
+@media screen and (max-width: 1199px) {
+.homeOfferCover span.uptoOffer{    font-size: 22px;}
+.giftHimHer .giftHimHerCard {    width: 45.6%;}
+}

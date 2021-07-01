@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+
+
+
+/*CATEGORY TILE*/
+.border-divider-gray{border-bottom:10px solid #e7e8ea;}
+.title-1{ font-size:17px; font-family: 'source_sans_probold'; color:#000; text-align:center; padding-bottom:5px;}
+
+.brandStoreCover{}
+.brandStoreCover h1{ font-size:22px; font-weight:800; font-family: 'libre_caslon_textregular'; color:#000; position:relative; margin-bottom: 16px;}
+.brandStoreCover h1:before{ content:""; position:absolute; bottom:-2px; left:0; right:0; width:80px; height:1px; background: #868686; margin:0 auto;}
+.brandStoreCover .row{}
+.brandStoreCover .col-lg-4{ -ms-flex: 0 0 33.33%!important; flex: 0 0 33.33%!important; max-width: 33.33%!important;}
+.brandStoreCover .brandImg{ margin-bottom:11px;}
+.brandStoreCover .brandImg img{-webkit-border-radius: 12px; -moz-border-radius: 12px; border-radius: 12px;}
+.brandStoreCover .brandLogo{ margin-bottom:28px;}
+/*END CATEGORY TILE*/
+
+
+
+
+
+
+
+
+
+
+

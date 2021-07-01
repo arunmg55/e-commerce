@@ -1,0 +1,153 @@
+/*HOME PRODUCT SLIDER*/
+
+.scrolling-wrapper {
+	 overflow-x: scroll;
+	 overflow-y: hidden;
+	 white-space: nowrap;
+}
+ .scrolling-wrapper .productCard {
+	position:relative;
+	 display: inline-block;
+	 vertical-align: top;
+}
+.productCard .prodSingle{ height:100%;}
+.vallProd{ margin: 48% 0 0 -40px;}
+.vallProd .vallProdIcon{display:block; margin: 0 auto; 
+
+width: 58px;
+height: 58px;
+
+background: rgba(40, 44, 63, 0.05);
+border: 1px solid rgba(40, 44, 63, 0.12);
+box-sizing: border-box;
+
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+}
+.vallProd .vallProdIcon img{
+	width: 36px;
+    text-align: center;
+    display: block;
+     margin: 9px auto auto auto;
+    height: 38px;
+}
+.vallProd .vallProdText{
+display:block;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+padding-top:8px;
+text-align: center;
+color: #282C3F;
+opacity: 0.7;
+}
+.scrolling-wrapper .productCard .img_wrap{ text-align:center; background:#000; border:1px solid #d6d6d6; height:160px;}
+.scrolling-wrapper .productCard .img_wrap .imgWrapInner{background: #fff; opacity: .97; padding:16px 5px 12px 5px; height:100%; position:relative;}
+.scrolling-wrapper .productCard .img_wrap .imgWrapInner a{display: block; height: 100%; }
+.scrolling-wrapper .productCard .img_wrap .imgWrapInner .imgWrapStickerLeft{
+	position: absolute;
+    left: 0;
+    top: 0;
+    background: #ffce01;
+    color: #fff;
+    font-style: normal;
+    font-size: 8px;
+    line-height: 13px;
+    font-weight: 400;
+    padding: 1px 5px 1px 5px;
+    z-index: 8;
+
+	background: #282C3F;
+	}
+.scrolling-wrapper .productCard .img_wrap .imgWrapInner .imgWrapStickerLeft:after{
+content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -7.4px;
+    border-top: 7.4px solid #282c3f;
+    border-bottom: 7.6px solid #282c3f;
+    border-right: 7.6px solid transparent;
+    border-left: 7.6px solid transparent;	
+}
+ .scrolling-wrapper-flexbox {
+	 display: flex;
+	 flex-wrap: nowrap;
+	 overflow-x: auto;
+}
+ .scrolling-wrapper-flexbox .productCard {
+	 flex: 0 0 auto;
+	 margin-right: 3px;
+}
+ .productCard {
+	 width: 100%;
+	 margin-right: 0;
+	 /*height: 75px;
+	 background: black;*/
+}
+.productCard .productsliderText{white-space: initial; padding-top:13px; padding-left:10px;}
+.productCard .productsliderText a{ color:#231f20; display:block;}
+.productCard .productsliderText a h4 {
+margin: 0 2px 5px 0;
+font-weight: bold;
+font-size: 22px!important;
+font-family: 'source_sans_probold';
+line-height: 20px;
+text-align:left;
+
+
+color: #282C3F;
+
+
+}
+.productCard .productsliderText a .prodName {
+    font-size: 18px;
+    line-height: 20px;
+    color: #676B7A;
+    display: block;
+	padding-bottom:2px;
+}
+.productCard .productsliderText a .prodPrice {
+    font-size: 22px;
+    display: block;
+	
+	font-weight: bold;
+	line-height: 20px;
+	color: #282C3F;
+	padding-top:2px;
+}
+.productsliderCover .product_carousel{padding: 0 25px;}
+.productsliderCover .owl-nav{position: absolute;
+    top: 32%;
+    /*bottom: 0;*/
+	left:0;
+	right:0;
+    margin: auto;
+    FONT-WEIGHT: 100;
+    height: 43px;
+	width:100%;
+}
+.productsliderCover .slideArrLeft{ background:url(../images/arrow-left.png) no-repeat!important; float: left; display:inline-block; width:20px; height:48px; background:#f00; margin-left:-25px;}
+.productsliderCover .slideArrRight{ background:url(../images/arrow-right.png) no-repeat!important; float:right; display:inline-block; width:20px; height:48px; margin-right:-25px;}
+
+
+.productCard .productsliderText a .prodPrice i{
+	font-size: 17px;
+    font-weight: 600;
+}
+ .scrolling-wrapper, .scrolling-wrapper-flexbox {
+	 min-height: 205px;
+	 margin-bottom: 6px;
+	 width: 100%;
+	 -webkit-overflow-scrolling: touch;
+}
+ .scrolling-wrapper::-webkit-scrollbar, .scrolling-wrapper-flexbox::-webkit-scrollbar {
+	 display: none;
+}
+@media only screen and (max-width: 1199px) {
+.productsliderCover .owl-nav{top: 30.9%;}
+}
+/*END HOME PRODUCT SLIDER*/

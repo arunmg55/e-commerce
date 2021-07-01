@@ -1,0 +1,75 @@
+.lrclose{position: absolute; right: 10px; top: 10px; background: none; opacity: 9;}
+.lrclose span{ width:25px; height:25px; display: block; text-align: center; line-height: 26px; background:#231f20; opacity: 9!important; font-weight:300; color: #fff; opacity: 1!important; text-shadow: none; font-weight: 300; font-size: 30px; -webkit-border-radius: 100px;
+-moz-border-radius: 100px; border-radius: 100px;
+}
+.loginRegrAll .blueBtn{ background:#0067b3; border:0;}
+
+
+.loginRegrAll{background: none; border: 0; margin: 0 auto; padding: 0; position: relative;}
+.loginRegrAll .card-body{padding: 12px 1.25rem 1.25rem 1.25rem;}
+.loginRegrAll .card-body h3.card-title{font-size: 22px; padding-bottom: 10px; border-bottom: 1px solid #939598;}
+.loginRegrAll .card-body .form-group{ margin-bottom: .7rem;}
+.loginRegrAll .card-body label{/*font-size: 14.5px; margin-bottom: .1rem;*/}
+.loginRegrAll .card-body input[type="text"],
+.loginRegrAll .card-body input[type="email"],
+.loginRegrAll .card-body input[type="tel"],
+.loginRegrAll .card-body input[type="password"]{ background:none; padding: 1.15rem .5rem; border:1px solid #a3a5a8;}
+
+.loginRegrAll .card-body button,
+.loginRegrAll .card-body input[type="button"]{background:6d6e71; padding: .55rem .5rem; border:0!important;}
+.loginRegrAll .lrRadio{ margin-bottom: 5px;}
+.loginRegrAll .lrRadio input{margin-top: 7px;}
+.loginRegrAll .card-body .grayBtn{ background:#6d6e70; color:#fff;}
+.loginRegrAll .loginRegrAllFooter{ font-size:13px; color:#000000;}
+.loginRegrAll .loginRegrAllFooter a{ font-size:13px; color:#0066b3;}
+
+.lrSocialLogin{text-align:center; clear:both;}
+.lrSocialLogin a{ position:relative; border:1px  solid #ededee; width:42%; margin:0 2%; height:48px; padding:6px 14px; display:inline-block; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; text-align:left;}
+.lrSocialLogin a img{ width:24px; display:inline-block; position:absolute; top:0; bottom:0; margin: auto 0;}
+.lrSocialLogin .btn-text{ display:inline-block; padding-left:40px; color:#6d6e71; line-height: 34px;}
+.lrSocialLogin .ordiv{ font-size:15px; text-align:center; color:#6d6e71; padding:17px 0 17px 0;}
+
+.lrcheckterms{ padding-top:10px; clear:both;}
+.lrcheckterms label{position: relative; padding-left: 24px; cursor: pointer; display: inline-block!important; font-size: 14px; font-weight: 400!important;}
+.lrcheckterms a { color: #0569b4!important;  font-weight: 400;}
+.control input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.control__indicator {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background: #e6e6e6;
+}
+.control input:checked ~ .control__indicator {
+    background: #666;
+}
+.checkterms .control__indicator {
+    border: 1px solid #ccc;
+    height: 12px;
+    width: 12px;
+    margin-top: -2px;
+}
+.control__indicator:after {
+    content: '';
+    position: absolute;
+    display: none;
+}
+.control input:checked ~ .control__indicator:after {
+    display: block;
+}
+.control--checkbox .control__indicator:after {
+    left: 5px;
+    top: 2px;
+    width: 4px;
+    height: 7px;
+    border: solid #fff;
+    border-width: 0 1px 1px 0;
+    transform: rotate(
+45deg
+);
+}
